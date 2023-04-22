@@ -9,11 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack (spacing: 20) {
+        VStack (spacing: 18.0) {
             Image("pears")
             Text("This is my Git & GitHub for Pairs Project!")
                 .fontWeight(.semibold)
                 .foregroundColor(Color.green)
+            Image("fruit joke")
+            Text("Great job! Let me know when you see these changes :)")
+                .fontWeight(.semibold)
+                .foregroundColor(Color.red)
+                .multilineTextAlignment(.center)
+
+            
         }
         .padding()
     }
